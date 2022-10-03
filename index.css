@@ -1,0 +1,76 @@
+/* Write your code here. */
+* {
+  border: border-box;
+}
+.social-container {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/social-buttons-bg.png");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-weight: 20px;
+}
+.yellow-button {
+  background-color: #eab308;
+  color: #ffffff;
+  border-radius: 10px;
+  border-width: 0px;
+  padding: 5px;
+  margin-right: 5px;
+  width: 75px;
+}
+.white-button {
+  background-color: #ffffff;
+  color: black;
+  border-radius: 10px;
+  border-width: 0px;
+  padding: 5px;
+  margin-right: 5px;
+  width: 75px;
+}
+.blue-button {
+  background-color: #1d4ed8;
+  color: #ffffff;
+  border-radius: 10px;
+  border-width: 0px;
+  padding: 5px;
+  margin-right: 5px;
+  width: 75px;
+}
+.button-container {
+  display: flex;
+}
+@media (max-width: 576px) {
+  .yellow-button {
+    width: 75px;
+    max-width: 80px;
+  }
+  .white-button {
+    width: 75px;
+    max-width: 80px;
+  }
+  .blue-button {
+    width: 75px;
+    max-width: 80px;
+  }
+}
+@media (min-width: 768px) {
+  .yellow-button {
+    width: 80px;
+    max-width: 100px;
+  }
+  .white-button {
+    width: 80px;
+    max-width: 100px;
+  }
+  .blue-button {
+    width: 80px;
+    max-width: 100px;
+  }
+}
